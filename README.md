@@ -23,3 +23,6 @@ AI_Voice_Chatbot/
 │
 └── templates/
       └── index.html
+
+An industry-style AI Voice Assistant web application built using HTML, CSS, and JavaScript, featuring a futuristic neon-glow UI, smooth animations, and real-time voice interaction using the Web Speech API.
+This project focuses on delivering a modern, professional, and highly interactive user experience suitable for real-world applications and hackathon projects.
