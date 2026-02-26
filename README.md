@@ -39,3 +39,10 @@ Integration: Connects to the OpenWeatherMap API using a secure API key from a co
 Functionality: * Fetches temperature, weather descriptions, and humidity levels.
 Defaults to Mumbai if no city is specified.
 Includes robust error handling for API connection issues or invalid city names.
+
+
+This style is best for a quick overview of what each file does.
+
+helper.py: Contains reusable utility functions and helper methods to support core application logic and reduce code duplication.
+
+translater.py: Manages text translation and localization logic, handling language processing and API integrations.
