@@ -46,3 +46,18 @@ This style is best for a quick overview of what each file does.
 helper.py: Contains reusable utility functions and helper methods to support core application logic and reduce code duplication.
 
 translater.py: Manages text translation and localization logic, handling language processing and API integrations.
+
+
+script.js: The Frontend Orchestrator
+The script.js file acts as the central logic hub for the client-side application. It manages the real-time lifecycle of the voice interaction—from capturing raw audio via the user's microphone to rendering the AI's emotional and contextual responses in the UI.
+
+Core Functionalities
+Audio Stream Management: Leverages the Web Audio API and MediaDevices.getUserMedia() to capture high-quality voice input while implementing Voice Activity Detection (VAD) to minimize background noise.
+
+Real-Time Communication: Establishes and maintains a low-latency WebSocket or WebRTC connection to the backend server for instantaneous data exchange.
+
+State Management: Synchronizes the UI states (e.g., Listening, Processing, Speaking) to ensure a seamless, human-like conversational flow.
+
+Dynamic UI Updates: Handles the rendering of live transcripts, sentiment indicators, and integration alerts (CRM/WhatsApp status) without requiring a page reload.
+
+Audio Playback Control: Manages the queue for incoming Text-to-Speech (TTS) buffers, ensuring smooth, jitter-free audio playback of the AI's responses.
